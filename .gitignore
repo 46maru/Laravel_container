@@ -1,4 +1,1 @@
 .env
-!src/
-src/*
-!src/.gitkeep
