@@ -31,10 +31,10 @@ services:
     env_file:
         - ./.env
     environment:
-      MYSQL_DATABASE: ${DB_DATABASE}
-      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
-      MYSQL_PASSWORD: ${DB_PASSWORD}
-      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_DATABASE: ${DB_DATABASE} //.envファイルに記述
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD} //.envファイルに記述
+      MYSQL_PASSWORD: ${DB_PASSWORD} //.envファイルに記述
+      MYSQL_USER: ${DB_USERNAME}  //.envファイルに記述 
       
       TZ: 'Asia/Tokyo'
     volumes:
